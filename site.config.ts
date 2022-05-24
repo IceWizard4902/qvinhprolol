@@ -10,11 +10,11 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'qvinhprolol Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'qvinhprolol.vercel.app',
   author: 'Nguyen Quang Vinh',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'qvinhprolol blog',
 
   // social usernames (optional)
   twitter: 'qvinhprolol',
@@ -47,16 +47,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Resume',
+      pageId: '6a9e752085ea4fbb9a9df3eebacd1bb1'
+    },
+    {
+      title: 'CTFs',
+      pageId: '3aeda92ef9054bd285f43efcc7dbb100'
+    }
+  ]
 })
